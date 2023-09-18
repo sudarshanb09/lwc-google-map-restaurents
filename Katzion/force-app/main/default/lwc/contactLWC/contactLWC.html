@@ -1,0 +1,12 @@
+<template>
+    
+    <lightning-card title="Personal Information">
+        <lightning-record-form
+        record-id={recordId}
+        object-api-name={contactObject}
+        fields={contactFields}
+        onsuccess={handleContactCreated}
+        >
+        </lightning-record-form>
+    </lightning-card>
+  </template>
