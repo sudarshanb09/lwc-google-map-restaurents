@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Restaurants Nearby" >
+        <lightning-map
+            map-markers={mapMarkers}
+            markers-title="Locations"
+            onmarkerselect={handleMarkerSelect}
+            selected-marker-value={selectedMarkerValue}
+        >
+        </lightning-map>
+    </lightning-card>
+</template>
